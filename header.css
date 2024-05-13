@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.row1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 38px;
+  margin-top: 15px;
+  font-size: 12px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont;
+  font-weight: 300;
+}
+.nav {
+  height: 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
+  z-index: 2;
+  /* position: fixed; */
+}
+.center1 {
+  display: flex;
+  height: 84vh;
+  background-color: #fafafa;
+}
+.img1 {
+  width: 400px;
+  height: 450px;
+  object-fit: cover;
+  position: absolute;
+  left: 38%;
+  top: 10%;
+}
+
+.center2 {
+  font-size: 32px;
+  line-height: 1.125;
+  font-weight: 600;
+  letter-spacing: 0.004em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  height: 144px;
+  width: 600px;
+  position: absolute;
+  font-weight: 450;
+  top: 57%;
+  left: 33%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.center2a {
+  background-color: transparent;
+  border-radius: 200px;
+  font-size: 15px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  border-style: solid;
+  border-width: 1px;
+  min-width: 28px;
+  padding: 11px 21px;
+  position: absolute;
+  top: 75%;
+  left: 45%;
+}
+.center3 {
+  display: flex;
+  background-color: black;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.center3a {
+  margin-top: 90px;
+  margin-left: 250px;
+  height: 56px;
+  width: 510px;
+  color: #f5f5f7;
+  font-size: 56px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont;
+}
+.center3b {
+  text-align: center;
+  height: 115px;
+  width: 600px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont;
+  color: rgba(227, 208, 208, 0.722);
+  font-size: 25px;
+  margin-top: 45px;
+}
+.center3c {
+  width: 600px;
+  height: 25px;
+  color: #f5f5f7;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont;
+  font-size: 17px;
+  margin-top: 60px;
+  margin-left: 400px;
+}
+.center3ca {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-right: 50px;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.center3cab {
+  color: #f5f5f7;
+  background-color: transparent;
+  border-radius: 200px;
+  font-size: 15px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  border-style: solid;
+  border-width: 1px;
+  min-width: 28px;
+  padding: 11px 21px;
+  margin: 20px;
+}
+.center3cac {
+  color: #f5f5f7;
+  background-color: transparent;
+  border-radius: 200px;
+  font-size: 15px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  border-style: solid;
+  border-width: 1px;
+  min-width: 28px;
+  padding: 11px 21px;
+}
+.img2 {
+  margin-top: 50px;
+  width: 824px;
+  height: autopx;
+}
+.center4 {
+  display: flex;
+  /* background-color: #fff; */
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(55deg, #ffffff 0%, #c7fffc 51%, #5efffc 85%);
+}
+.center4a {
+  margin-top:10px;
+ margin-right: 80px;
+  height: 56px;
+  width: 510px;
+  color: #1d1d1f;
+  font-size: 56px;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont;
+}
+.center4b {
+  text-align: center;
+  height: 115px;
+  width: 600px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont;
+  color: #424245;
+  font-size: 25px;
+  margin-top:60px;
+}
+.center4c {
+  width: 600px;
+  height: 25px;
+  color: #424245;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont;
+  font-size: 17px;
+  margin-top: 60px;
+  margin-left: 400px;
+}
+.center4cab {
+  color: #424245;
+  background-color: transparent;
+  border-radius: 200px;
+  font-size: 15px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  border-style: solid;
+  border-width: 1px;
+  min-width: 28px;
+  padding: 11px 21px;
+  margin: 20px;
+}
+.center4cac {
+  color: #424245;
+  background-color: transparent;
+  border-radius: 200px;
+  font-size: 15px;
+  line-height: 1.1764805882;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  border-style: solid;
+  border-width: 1px;
+  min-width: 28px;
+  padding: 11px 21px;
+  margin: 20px;
+}
+
+.styletext{
+font-style: oblique;
+
+
+}
+.ipadair{
+  height: 104px;
+  width: 561px;
+  margin-right:700px;
+  
+}
+.foot1{
+  display: flex;
+  flex-direction:column;
+}
+.footmain{
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
